@@ -44,7 +44,7 @@ public class GUI extends JFrame implements ActionListener {
         portInput = new JTextField();
         info = new JLabel();
      
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         welcomeText.setText("Welcome to RemoteSlider");
         noWarranty.setText("This program was created by meluchoMZ and comes under no warranty");
         info.setText("Please insert the port where you desire to start the RS server");
@@ -72,7 +72,7 @@ public class GUI extends JFrame implements ActionListener {
                         .addComponent(exitButton)))
                 .addContainerGap(62, Short.MAX_VALUE))
             .addGroup(GroupLayout.Alignment.TRAILING, panelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(startButton)
                 .addGap(230,230,230))
         );
