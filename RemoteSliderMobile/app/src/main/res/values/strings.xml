@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Remote Slider Mobile</string>
+    <string name="avpag">AVPAG</string>
+    <string name="repag">REPAG</string>
+    <string name="connect">Connect</string>
+    <string name="enter_the_pc_s_ip">Enter the PC\'s IP</string>
+</resources>
